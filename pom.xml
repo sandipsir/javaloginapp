@@ -36,6 +36,14 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		<distributionManagement>
+	    </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://15.206.211.140:8081/repository/maven-central-repository/</url>
+        </snapshotRepository>
+    </distributionManagement>
 		
 		
 		
